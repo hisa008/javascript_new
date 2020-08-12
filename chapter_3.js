@@ -91,7 +91,7 @@
 // window.alert(str.replace(p, 'チンパン'));
 // window.alert(str);
 
-var p = /[\/\.\-]/gi;
+// var p = /[\/\.\-]/gi;
 
-window.alert('2016/12/04'.split(p));
-window.alert(p);
+// window.alert('2016/12/04'.split(p));
+// window.alert(p);

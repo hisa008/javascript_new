@@ -108,3 +108,21 @@
 //     window.alert(e.message);
 // }
 
+// function getTriangle({base = 1, height = 1}){
+//     return base * height / 2;
+// }
+
+// console.log(getTriangle({height:4, base:5}));
+
+function show({address, name}){
+    console.log(address);
+    console.log(name);
+};
+
+let member = {
+    mid: 'Y0001',
+    name: '山田太郎',
+    address: 't_yamada@example.com'
+};
+
+show(member);

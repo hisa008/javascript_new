@@ -108,16 +108,21 @@
 
 
 
-document.addEventListener('DOMContentLoaded', function(){
-    var setListValue = function(name, value){
-        vat opts = document.getElementById(name);
+// document.addEventListener('DOMContentLoaded', function(){
+//     var setListValue = function(name, value){
+//         vat opts = document.getElementById(name);
 
-        for(var i = 0, len = opts.length; i < len; i++){
-            var opt = opts.item(i);
+//         for(var i = 0, len = opts.length; i < len; i++){
+//             var opt = opts.item(i);
 
-            if(value.indexOf(opt.value) > -1){
-                var opt.selected
-            }
-        }
-    }
-})
+//             if(value.indexOf(opt.value) > -1){
+//                 var opt.selected
+//             }
+//         }
+//     }
+// })
+
+
+
+
+
